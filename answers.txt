@@ -1,0 +1,47 @@
+sort1 uses: bubble sort
+
+random5000.text real time = 0m0.090s
+random10000.txt real time = 0m0.313s
+random50000.txt real time = 0m8.501s
+reversed5000.txt real time = 0m0.097s
+reversed10000.txt real time = 0m0.364s
+reversed 50000.txt real time = 0m6.583s
+sorted5000.txt real time = 0m0.049s
+sorted10000.txt real time = 0m0.061s
+sorted50000.txt real time = 0m0.552s
+
+How do you know?: The sort1 program may have been slithly slower than sort3 for the random and reversed text files, but
+it was faster than both sort2 and sort3 for the sorted text files because when using bubble sort, if no swaps/changes are
+made, then the program is exited so bubble sort should be the fasted for a sorted list.
+
+
+sort2 uses: merge sort
+
+random5000.text real time = 0m0.028s
+random10000.txt real time = 0m0.055s
+random50000.txt real time = 0m0.761s
+reversed5000.txt real time = 0m0.047s
+reversed10000.txt real time = 0m0.066s
+reversed 50000.txt real time = 0m0.773s
+sorted5000.txt real time = 0m0.044s
+sorted10000.txt real time = 0m0.089s
+sorted50000.txt real time = 0m0.659s
+
+How do you know?: The sort3 program compiled the fasted for almost every file, and even the files where it wasn't the
+fastest, it was still very close.
+
+
+sort3 uses: selection sort
+
+random5000.text real time = 0m0.070s
+random10000.txt real time = 0m0.203s
+random50000.txt real time = 0m3.764s
+reversed5000.txt real time = 0m0.049s
+reversed10000.txt real time = 0m0.225s
+reversed 50000.txt real time = 0m4.006s
+sorted5000.txt real time = 0m0.048s
+sorted10000.txt real time = 0m0.159s
+sorted50000.txt real time = 0m3.829s
+
+How do you know?: The sort3 program took longer than sort2 for all the text files and took longer than sort1 for the sorted
+text files.
