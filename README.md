@@ -1,2 +1,2 @@
 # HarvardX-CS50x-Lab-3
-Analyze three programs provided by the course and determine which one uses selection sort, bubble sort, and merge sort
+For lab 3 of Harvard's CS50x course three programs that are used to sort a list of items were provided, but were written in binary so they could not be seen. I had to run multiple text files containing a varying amount of numbers in a random, reverse, and sorted order and time how long it took each of the three sorting algorithms to sort the numbers in the text file. I then had to use that data to determine which of the three algorithms used selection sory, bubble sort, and merge sort and explain how I came to my conclusion using the data I collected.
